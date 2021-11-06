@@ -23,7 +23,7 @@ while (1) {
       ok = true;
       break;
     }
-    sleep(100);
+    await sleep(1000);
   }
   if (!ok) {
     break;
