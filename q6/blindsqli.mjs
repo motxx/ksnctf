@@ -8,7 +8,7 @@ const sleep = async ms => {
 const chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!"#$&\'()-^\@[;:],./\=~|`{+*}<>?_%';
 
 let flag = 'FLAG_';
-while (1) {
+for (let i = 0; i < 100; i++) {
   let ok = false;
   for (const ch of chars) {
     const form = new FormData();
